@@ -64,7 +64,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 nav {
   width: 100%;
   height: auto;
-	padding: 2rem;
+	padding: 1.5rem 0;
   background-color: #252831;
   text-align:center;
 }
@@ -73,7 +73,7 @@ nav h1 {
 }
 nav h1 a {
   color: #fff;
-  font-size: 14pt;
+  font-size: 0.8rem;
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -259,7 +259,7 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
+  padding: 1rem;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -267,7 +267,7 @@ nav h1 a {
   width: 100%;
 }
 #reviews-container {
-  padding: 30px 40px 80px;
+  padding: 1rem;
 }
 #reviews-container h2 {
   color: #f58500;
@@ -286,16 +286,54 @@ nav h1 a {
 #reviews-list li {
   background-color: #fff;
     border: 2px solid #f3f3f3;
-  display: block;
+  display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
+	padding:0;
+	border-top-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+  /* padding: 0 20px 20px; */
   /* position: relative; */
-  width: 85%;
+  width: 100%;
 }
-#reviews-list li p {
-  margin: 0 0 10px;
+#reviews-list li div {
+	padding: 0.5rem;
+	border-top-left-radius: 2rem;
+	display: flex;
+	flex-flow: row wrap;
+	width:100%;
+	justify-content: space-between;
+	background-color: #252831;
+	align-items: baseline;
+
+}
+#reviews-list li div p {
+	color:#fff;
+	margin: 1rem;
+	font-size: 1.2rem;
+}
+
+#reviews-list li div p:nth-child(2) {
+	color:#f3f3f3;
+	font-size: 1rem;
+}
+#reviews-list li p:nth-child(3) {
+	margin: 1rem;
+	font-size: 1rem;
+}
+#reviews-list li .rating{
+  background-color:orange;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color:#f3f3f3;
+	padding: 0.6rem 1rem;
+	font-size: 1rem;
+	margin: 1rem;
+	border-radius: 0.7rem;
+	font-weight: 600;
 }
 #restaurant-hours td {
   color: #666;

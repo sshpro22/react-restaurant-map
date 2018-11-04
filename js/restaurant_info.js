@@ -148,15 +148,20 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
  */
 createReviewHTML = (review) => {
   const li = document.createElement('li');
+  //create a container for the name and date
+  const nameDateContainer = document.createElement('div');
   const name = document.createElement('p');
   name.innerHTML = review.name;
-  li.appendChild(name);
+  nameDateContainer.appendChild(name);
 
   const date = document.createElement('p');
   date.innerHTML = review.date;
-  li.appendChild(date);
+  nameDateContainer.appendChild(date);
+
+  li.appendChild(nameDateContainer);
 
   const rating = document.createElement('p');
+  rating.classList = 'rating';
   rating.innerHTML = `Rating: ${review.rating}`;
   li.appendChild(rating);
 
