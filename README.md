@@ -1,32 +1,33 @@
-# Mobile Web Specialist Certification Course
+# Restaurant Review App
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
+This app is created as part of the Udacity Front-End Developer Nanodegree Program.
+![Screenshot](img/snippet.png)
 
-## Project Overview: Stage 1
+## Project Overview:
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+In this project, a static webpage that lacks accessibility was provided. I incrementally converted the static webpage to a mobile-ready web application. I converted the design to be responsive on different sized displays and accessible for screen reader use. In addition, I added a service worker feature to the app to create a seamless offline experience for the users.
 
-### Specification
+## Project Specification:
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+The code that was provided the code for the restaurant reviews website had many issues. It was barely usable on a desktop browser, much less a mobile device. Also, It doesn’t include any standard accessibility features, and it doesn’t work offline at all. My job was to update the code to resolve these issues while still maintaining the included functionality.
 
-### What do I do from here?
+## Installation
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+1. Clone this repository to your device.
+2. Open the root folder of the repository in a terminal
+3. Check if you have python installed by running `python -V` in the terminal
+4. Start local server:
+ - For Python 2.x: `python -m SimpleHTTPServer 8000`
+ - For Python 3.x: `python3 -m http.server 8000`
+5. Open [http://localhost:8000](http://localhost:8000)
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+## Dependences
+* Starter code by [**Udacity**](https://github.com/udacity/mws-restaurant-stage-1).
+* [**Leafletjs**](https://leafletjs.com/) 
+* [**Mapbox**](https://www.mapbox.com/)
+* [**Lighthouse**](https://developers.google.com/web/tools/lighthouse/)
+* [**Normalize.css**](https://necolas.github.io/normalize.css/)
+* [Favicon & App Icon Generator](https://www.favicon-generator.org/)
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
-
-## Leaflet.js and Mapbox:
-
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
-
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
-
-
+## License
+[MIT](https://github.com/dimikara/Restaurant-Reviews-App-Stage-1/blob/master/LICENSE) License.
