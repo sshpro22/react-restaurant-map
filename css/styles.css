@@ -64,12 +64,13 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 nav {
   width: 100%;
   height: auto;
-	padding: 1.5rem 0;
+	padding: 1.5rem 0 0 0;
   background-color: #252831;
   text-align:center;
 }
 nav h1 {
   margin: auto;
+	padding-bottom: 1rem;
 }
 nav h1 a {
   color: #fff;
@@ -82,8 +83,9 @@ nav h1 a {
     padding: 10px 40px 16px;
     list-style: none;
     background-color: #eee;
-    font-size: 17px;
-    margin: 0;
+    font-size: 18px;
+    margin: 1.1rem 0 0 0;
+		text-align: left;
 		width:0;
     width: auto;
 }
@@ -179,7 +181,7 @@ nav h1 a {
   /* min-height: 248px; */
   /* width: 100%; */
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #996300;
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -279,7 +281,7 @@ nav h1 a {
   padding: 1rem;
 	max-width: 900px;
 }
-#reviews-container h2 {
+#reviews-container h3 {
   color: #996300;
   font-size: 24pt;
   font-weight: 300;
