@@ -1,7 +1,7 @@
 # Restaurant Review App
 ---
 This app is created as part of the Udacity Front-End Developer Nanodegree Program.
-![Screenshot](img/snippet.png)
+![Screenshot](img/snippet.PNG)
 
 ## Project Overview:
 
@@ -21,9 +21,9 @@ The code that was provided the code for the restaurant reviews website had many 
  - For Python 3.x: `python3 -m http.server 8000`
 5. Open [http://localhost:8000](http://localhost:8000)
 
-## Dependences
+## Dependencies
 * Starter code by [**Udacity**](https://github.com/udacity/mws-restaurant-stage-1).
-* [**Leafletjs**](https://leafletjs.com/) 
+* [**Leafletjs**](https://leafletjs.com/)
 * [**Mapbox**](https://www.mapbox.com/)
 * [**Lighthouse**](https://developers.google.com/web/tools/lighthouse/)
 * [**Normalize.css**](https://necolas.github.io/normalize.css/)
